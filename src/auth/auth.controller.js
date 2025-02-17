@@ -1,5 +1,5 @@
 import { hash, verify } from "argon2"
-import User from "../clientes/clientes.model.js"
+import User from "../clientes/cliente.model.js"
 import { generateJWT } from "../helpers/generate-jwt.js";
 
 export const register = async (req, res) => {
